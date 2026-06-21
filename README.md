@@ -8,7 +8,7 @@ which is impossible.
 I wrote the proof skeleton and lemma breakdown below myself, then used AI (Claude Opus) to
 translate it into Lean syntax, debugging and verifying the resulting code line by line.
 
-The whole development is in [`test.lean`](test.lean). The key result is:
+The whole development is in [`test.lean`](e_irrational.lean). The key result is:
 
 ```lean
 theorem e_irrational : Irrational e
