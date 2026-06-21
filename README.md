@@ -5,8 +5,7 @@ that Euler's number `e = ∑ 1/n!` is irrational, via the classic argument. Name
 were rational, then `s! · (e − ∑_{n≤s} 1/n!)` would be an integer strictly between `0` and `1`,
 which is impossible.
 
-This was my first Lean project, done to get hands-on experience with AI-assisted formalization
-workflows. I wrote the proof skeleton and lemma breakdown below myself, then used Claude Opus to
+I wrote the proof skeleton and lemma breakdown below myself, then used AI (Claude Opus) to
 translate it into Lean syntax, debugging and verifying the resulting code line by line.
 
 The whole development is in [`test.lean`](test.lean). The key result is:
